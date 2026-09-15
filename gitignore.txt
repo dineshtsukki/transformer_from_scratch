@@ -1,0 +1,28 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Project specific
+outputs/
+*.pyc
+src/translation_engine.py
+src/extract_pretrained.py
+src/train_model.py
+src/train_tokenizers.py
+src/data_utils.py
+src/download_data.py
+
+# IDE specific
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
